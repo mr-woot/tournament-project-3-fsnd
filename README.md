@@ -5,8 +5,9 @@
 - Go into the cloned repository on Desktop.
 - Make sure, vagrant is installed on your system with proper OS compatible version.
 - Open terminal from the repo directory:
-  - type ``vagrant up``, wait for the setup to finish.
-  - then ``vagrant ssh``.
+  - Type``cd /vagrant``
+  - Then type ``vagrant up``, wait for the setup to finish.
+  - Then ``vagrant ssh``.
   - After login to vagrant, type ``psql``, then enter.
   - Connect to tournament database using ``\c tournament``.
   - To check the Unit Tests, run ``python tournament_test.py``.
